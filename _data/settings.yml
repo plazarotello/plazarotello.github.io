@@ -391,21 +391,15 @@ portfolio-items:
 # Testimonials Section
 
 testimonial-items:
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  - name: "José Miguel Tajuelo Garrigós"
+    image: "assets/images/testimonial/josemi.jpg"
+    designation: "Videogame programmer at Kalpa Games"
+    content: "Patricia es una excelente profesional. Tiene una gran dedicación, siempre se toma las cosas muy enserio, se esfuerza en que todo lo que hace tenga una calidad máxima y siempre tiene ideas y propuestas para solucionar cualquier problema. Estaría mas que encantado de volver a trabajar con ella en cualquier proyecto."
 
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-
+  - name: "Alberto Alcolea Ursua"
+    image: "assets/images/testimonial/alberto.jpg"
+    designation: "Backend Engineer at Datumize"
+    content: "Patricia es una profesional con muchas ganas de aprender, metódica y resolutiva que se esfuerza en cumplir sus objetivos y mejorar cada día. Como compañera siempre está dispuesta a involucrarse y a aportar ideas o puntos de vista diferentes para que el equipo llegue a la mejor solución. Fue un placer trabajar con ella."
 
 #-------------------------------
 # Contact Section
