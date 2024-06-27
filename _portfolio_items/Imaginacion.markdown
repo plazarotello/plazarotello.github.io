@@ -1,10 +1,10 @@
 ---
 layout: portfolio_item
 title:  Mary & the Imagination
-date:   2019-04-01 00:00:00 +0000
+date:   2020-04-01 00:00:00 +0000
 image:  /assets/images/portfolio/imagination.jpg
 author: Patricia Lázaro Tello
-tags:   WRITING
+tags:   Writing
 ---
 
 <p class="bg-gray"><p class="mb-0 mr-30 ml-30"><b>This short story titled Mary and the Imagination talks about the writer's block and the sadness, numbness and borderline depression that *that* can cause. <br>

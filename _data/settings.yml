@@ -190,25 +190,41 @@ education:
 
 # Portfolio Home Section
 portfolio-home-items:
+  - image: "assets/images/portfolio/childhood.png"
+    url: "https://kalpa-games.itch.io/childhood"
+    internal: false
+
+  - image: "assets/images/portfolio/fulton.png"
+    url: "https://foxgamedev.itch.io/detective-fulton-the-barlow-manor-mistery"
+    internal: false
+
+  # - image: "assets/images/portfolio/mask.jpg"
+  #   url: "_portfolio_items/Mascara"
+  #   internal: true
+
+  - image: "assets/images/portfolio/donut.gif"
+    url: "https://plazaro.itch.io/the-last-doughnut"
+    internal: false
+
+  - image: "assets/images/portfolio/killing-words.gif"
+    url: "https://otter-games.itch.io/killing-words"
+    internal: false
+
+  - image: "assets/images/portfolio/vigilantes.png"
+    url: "https://otter-games.itch.io/vxigilantes"
+    internal: false
+
   - image: "assets/images/portfolio/simbiosis.jpg"
     url: "_portfolio_items/Simbiosis"
     internal: true
 
-  - image: "assets/images/portfolio/imagination.jpg"
-    url: "_portfolio_items/Imaginacion"
-    internal: true
-
-  - image: "assets/images/portfolio/item-3.png"
-    url: "#"
+  - image: "assets/images/portfolio/hack.gif"
+    url: "https://foxgamedev.itch.io/hacknsolve"
     internal: false
 
-  - image: "assets/images/portfolio/item-4.png"
-    url: "#"
-    internal: false
-
-  - image: "assets/images/portfolio/item-5.png"
-    url: "#"
-    internal: false
+  # - image: "assets/images/portfolio/imagination.jpg"
+  #   url: "_portfolio_items/Imaginacion"
+  #   internal: true
 
 # Portfolio Page
 portfolio-label:
@@ -219,6 +235,43 @@ portfolio-label:
   - { title: "COMIC", type: "illustration" }
 
 portfolio-items:
+
+  - image: "assets/images/portfolio/childhood.png"
+    url: "https://kalpa-games.itch.io/childhood"
+    internal: false
+    portfolio-type: 
+      - type: "videogame"
+      - type: "programming"
+
+  - image: "assets/images/portfolio/mask.jpg"
+    url: "_portfolio_items/Mascara"
+    internal: true
+    portfolio-type:
+      - type: "writing"
+
+  - image: "assets/images/portfolio/fulton.png"
+    url: "https://foxgamedev.itch.io/detective-fulton-the-barlow-manor-mistery"
+    internal: false
+    portfolio-type: 
+      - type: "videogame"
+      - type: "writing"
+
+  - image: "assets/images/portfolio/killing-words.gif"
+    url: "https://otter-games.itch.io/killing-words"
+    internal: false
+    portfolio-type: 
+      - type: "videogame"
+      - type: "writing"
+      - type: "programming"
+
+  - image: "assets/images/portfolio/donut.gif"
+    url: "https://plazaro.itch.io/the-last-doughnut"
+    internal: false
+    portfolio-type: 
+      - type: "videogame"
+      - type: "writing"
+      - type: "programming"
+
   - image: "assets/images/portfolio/simbiosis.jpg"
     url: "_portfolio_items/Simbiosis"
     internal: true
@@ -226,23 +279,32 @@ portfolio-items:
       - type: "writing"
 
   - image: "assets/images/portfolio/imagination.jpg"
-    url: "#"
+    url: "_portfolio_items/Imaginacion"
     internal: false
     portfolio-type:
       - type: "writing"
-
-  - image: "assets/images/portfolio/mask.jpg"
-    url: "#"
+  
+  - image: "assets/images/portfolio/vigilantes.png"
+    url: "https://otter-games.itch.io/vxigilantes"
     internal: false
-    portfolio-type:
+    portfolio-type: 
+      - type: "videogame"
       - type: "writing"
+      - type: "programming"
 
-  - image: "assets/images/portfolio/item-6.png"
-    url: "#"
+  - image: "assets/images/portfolio/bermuda.png"
+    url: "https://foxgamedev.itch.io/bermuda-beach"
     internal: false
-    portfolio-type:
-      - type: "design"
-      - type: "branding"
+    portfolio-type: 
+      - type: "videogame"
+      - type: "programming"
+  
+  - image: "assets/images/portfolio/jit.png"
+    url: "https://foxgamedev.itch.io/jump-in-time"
+    internal: false
+    portfolio-type: 
+      - type: "videogame"
+      - type: "programming"
 
 #-------------------------------
 # Testimonials Section

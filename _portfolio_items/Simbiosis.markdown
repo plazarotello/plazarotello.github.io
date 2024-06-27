@@ -4,7 +4,7 @@ title:  Simbiosis
 date:   2019-04-01 00:00:00 +0000
 image:  /assets/images/portfolio/simbiosis.jpg
 author: Patricia Lázaro Tello
-tags:   WRITING
+tags:   Writing
 ---
 
 <p class="bg-gray"><p class="mb-0 mr-30 ml-30"><b>It tells the story of Alejandra, a college girl that has just arrived to Paris thanks to the Erasmus program. There, in the residency, learns that she is the only spanish speaker in the building - her first experience outside home and it starts badly. 
