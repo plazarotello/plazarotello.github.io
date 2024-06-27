@@ -14,7 +14,7 @@ copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.c
 menu:
   - { name: About, link: "/about" }
   - { name: Portfolio, link: "/portfolio" }
-  - { name: Blog, link: "/blog" }
+  # - { name: Blog, link: "/blog" }
   - { name: Contact, link: "/contact" }
 
 #-------------------------------
@@ -192,39 +192,46 @@ education:
 portfolio-home-items:
   - image: "assets/images/portfolio/childhood.png"
     url: "https://kalpa-games.itch.io/childhood"
-    internal: false
+    type: url
 
   - image: "assets/images/portfolio/fulton.png"
     url: "https://foxgamedev.itch.io/detective-fulton-the-barlow-manor-mistery"
-    internal: false
+    type: url
 
   # - image: "assets/images/portfolio/mask.jpg"
   #   url: "_portfolio_items/Mascara"
-  #   internal: true
+  #   type: post
 
-  - image: "assets/images/portfolio/donut.gif"
-    url: "https://plazaro.itch.io/the-last-doughnut"
-    internal: false
+  
+
+  - image: "assets/images/portfolio/tfm.png"
+    url: "_portfolio_items/plazaro_tfm.pdf"
+    type: pdf
 
   - image: "assets/images/portfolio/killing-words.gif"
     url: "https://otter-games.itch.io/killing-words"
-    internal: false
-
-  - image: "assets/images/portfolio/vigilantes.png"
-    url: "https://otter-games.itch.io/vxigilantes"
-    internal: false
-
-  - image: "assets/images/portfolio/simbiosis.jpg"
-    url: "_portfolio_items/Simbiosis"
-    internal: true
+    type: url
 
   - image: "assets/images/portfolio/hack.gif"
     url: "https://foxgamedev.itch.io/hacknsolve"
-    internal: false
+    type: url
 
-  # - image: "assets/images/portfolio/imagination.jpg"
-  #   url: "_portfolio_items/Imaginacion"
-  #   internal: true
+  - image: "assets/images/portfolio/retinas.png"
+    url: "_portfolio_items/plazarotello_DL_PRA.pdf"
+    type: pdf
+
+  - image: "assets/images/portfolio/simbiosis.jpg"
+    url: "_portfolio_items/Simbiosis"
+    type: post
+  
+  - image: "assets/images/portfolio/covid-europe.png"
+    url: "https://public.flourish.studio/story/1478018/"
+    type: url
+  
+  - image: "assets/images/portfolio/vigilantes.png"
+    url: "https://otter-games.itch.io/vxigilantes"
+    type: url
+
 
 # Portfolio Page
 portfolio-label:
@@ -232,61 +239,60 @@ portfolio-label:
   - { title: "DATA ANALYSIS", type: "analysis" }
   - { title: "WRITING", type: "writing" }
   - { title: "V-GAME MAKER", type: "videogame" }
-  - { title: "COMIC", type: "illustration" }
+  # - { title: "COMIC", type: "illustration" }
 
 portfolio-items:
 
   - image: "assets/images/portfolio/childhood.png"
     url: "https://kalpa-games.itch.io/childhood"
-    internal: false
+    type: url
     portfolio-type: 
       - type: "videogame"
       - type: "programming"
 
   - image: "assets/images/portfolio/mask.jpg"
     url: "_portfolio_items/Mascara"
-    internal: true
+    type: post
     portfolio-type:
       - type: "writing"
 
   - image: "assets/images/portfolio/fulton.png"
     url: "https://foxgamedev.itch.io/detective-fulton-the-barlow-manor-mistery"
-    internal: false
+    type: url
     portfolio-type: 
       - type: "videogame"
       - type: "writing"
 
   - image: "assets/images/portfolio/killing-words.gif"
     url: "https://otter-games.itch.io/killing-words"
-    internal: false
+    type: url
     portfolio-type: 
       - type: "videogame"
       - type: "writing"
       - type: "programming"
 
-  - image: "assets/images/portfolio/donut.gif"
-    url: "https://plazaro.itch.io/the-last-doughnut"
-    internal: false
+  - image: "assets/images/portfolio/tfm.png"
+    url: "_portfolio_items/plazaro_tfm.pdf"
+    type: pdf
     portfolio-type: 
-      - type: "videogame"
-      - type: "writing"
+      - type: "analysis"
       - type: "programming"
 
   - image: "assets/images/portfolio/simbiosis.jpg"
     url: "_portfolio_items/Simbiosis"
-    internal: true
+    type: post
     portfolio-type:
       - type: "writing"
 
   - image: "assets/images/portfolio/imagination.jpg"
     url: "_portfolio_items/Imaginacion"
-    internal: false
+    type: url
     portfolio-type:
       - type: "writing"
   
   - image: "assets/images/portfolio/vigilantes.png"
     url: "https://otter-games.itch.io/vxigilantes"
-    internal: false
+    type: url
     portfolio-type: 
       - type: "videogame"
       - type: "writing"
@@ -294,17 +300,92 @@ portfolio-items:
 
   - image: "assets/images/portfolio/bermuda.png"
     url: "https://foxgamedev.itch.io/bermuda-beach"
-    internal: false
+    type: url
     portfolio-type: 
       - type: "videogame"
       - type: "programming"
   
   - image: "assets/images/portfolio/jit.png"
     url: "https://foxgamedev.itch.io/jump-in-time"
-    internal: false
+    type: url
     portfolio-type: 
       - type: "videogame"
       - type: "programming"
+
+  - image: "assets/images/portfolio/cleaning.png"
+    url: "https://github.com/alba620/data-cleaning-analysis"
+    type: url
+    portfolio-type: 
+      - type: "analysis"
+      - type: "programming"
+  
+  - image: "assets/images/portfolio/scraping.jpg"
+    url: "https://github.com/plazarotello/web-scraping"
+    type: url
+    portfolio-type: 
+      - type: "analysis"
+      - type: "programming"
+
+  - image: "assets/images/portfolio/retinas.png"
+    url: "_portfolio_items/plazarotello_DL_PRA.pdf"
+    type: pdf
+    portfolio-type: 
+      - type: "analysis"
+  
+  - image: "assets/images/portfolio/preproceso.png"
+    url: "_portfolio_items/Lazaro_preproceso.pdf"
+    type: pdf
+    portfolio-type: 
+      - type: "analysis"
+  
+  - image: "assets/images/portfolio/inferencia.png"
+    url: "_portfolio_items/Lazaro_analisisEstadistico1.pdf"
+    type: pdf
+    portfolio-type: 
+      - type: "analysis"
+  
+  - image: "assets/images/portfolio/modelizacion.png"
+    url: "_portfolio_items/Lazaro_modelizacionPredictiva.pdf"
+    type: pdf
+    portfolio-type: 
+      - type: "analysis"
+  
+  - image: "assets/images/portfolio/anova.png"
+    url: "_portfolio_items/Lazaro_analisisVarianza.pdf"
+    type: pdf
+    portfolio-type: 
+      - type: "analysis"
+  
+  - image: "assets/images/portfolio/tfm.png"
+    url: "_portfolio_items/plazaro_tfm.pdf"
+    type: pdf
+    portfolio-type: 
+      - type: "analysis"
+      - type: "programming"
+
+  - image: "assets/images/portfolio/tfm2.png"
+    url: "_portfolio_items/plazarotello_videopresentacion.pdf"
+    type: pdf
+    portfolio-type: 
+      - type: "analysis"
+
+  - image: "assets/images/portfolio/revision.png"
+    url: "_portfolio_items/plazarotello-PEC5.pdf"
+    type: pdf
+    portfolio-type: 
+      - type: "analysis"
+
+  - image: "assets/images/portfolio/covid-europe.png"
+    url: "https://public.flourish.studio/story/1478018/"
+    type: url
+    portfolio-type: 
+      - type: "analysis"
+  
+  - image: "assets/images/portfolio/tic.png"
+    url: "https://public.tableau.com/views/LasTICenelmbitolaboralUnanlisisdesdediferentespuntosdevista/NivelTICporCCAAytipodecentroeducativo"
+    type: url
+    portfolio-type: 
+      - type: "analysis"
 
 #-------------------------------
 # Testimonials Section
