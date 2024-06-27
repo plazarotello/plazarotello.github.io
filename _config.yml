@@ -6,6 +6,7 @@ markdown: kramdown
 permalink: pretty
 plugins:
   - jekyll-sitemap
+  - jekyll-target-blank
 compress_html:
   clippings: all
   comments: all
@@ -20,6 +21,7 @@ defaults:
 
 include:
   - _pages
+  - _portfolio_items
 
 sass:
   sass_dir: assets/scss

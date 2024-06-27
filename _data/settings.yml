@@ -2,19 +2,19 @@
 #-------------------------------
 # General Site Settings
 
-title: Kross
+title: plazarotello
 logo:
-author: themefisher
-description: this is meta description
-email: steve.fruits@email.com
-phone: +880 2544 658 256
-address: 125/A, CA Commercial Area, California, USA
+author: Patricia Lázaro Tello
+description: plazaro's portfolio
+email: patricialazarotello@gmail.com
+phone: +34 606 26 14 20
+address: Zaragoza, Spain
 copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
 menu:
   - { name: About, link: "/about" }
-  - { name: Blog, link: "/blog" }
   - { name: Portfolio, link: "/portfolio" }
+  - { name: Blog, link: "/blog" }
   - { name: Contact, link: "/contact" }
 
 #-------------------------------
@@ -30,25 +30,23 @@ google-analytics: # UA-XXXXXX-X
 #-------------------------------
 # Comment Section (Disqus)
 
-disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
+# disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 
 #-------------------------------
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Christoher <br> UX designer
+  hero-title: Hi! I’m Patricia, <br> writer in the making, <br>comic enthusiast and <br>videogame developer
 
 social:
-  - { icon: "ti-facebook", link: "#" }
-  - { icon: "ti-instagram", link: "#" }
-  - { icon: "ti-dribbble", link: "#" }
-  - { icon: "ti-twitter", link: "#" }
+  - { icon: "ti-instagram", link: "https://www.instagram.com/plazaro.dev/" }
+  - { icon: "ti-twitter", link: "https://x.com/PLazaroTello" }
 
 #-------------------------------
 # About (Section and Page)
 
 # About Section
-blurb: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+blurb: My two passions since I was little have been videogames and art. Being able to program a videogame, and doing it with ease in the last few years - using Unreal Engine 4, Unity and Godot 3 and 4 - is a dream made true. Learning to draw and not suck at it; that would be another dream come true. I have a lot of stories in my mind, just waiting for a pen to touch a paper, a key to be stroked, a comic to be thought or a videogame to be designed.
 
 blurb-btn-link: "/about"
 blurb-btn-name: know more
@@ -56,18 +54,18 @@ blurb-btn-name: know more
 # About Page
 
 # Work Process Section
-work-process:
-  - title: "Research and Plan"
-    icon: "assets/images/icons/plan.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+# work-process:
+#   - title: "Research and Plan"
+#     icon: "assets/images/icons/plan.png"
+#     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-  - title: "Design and Develop"
-    icon: "assets/images/icons/design.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#   - title: "Design and Develop"
+#     icon: "assets/images/icons/design.png"
+#     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-  - title: "Deliver"
-    icon: "assets/images/icons/print.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#   - title: "Deliver"
+#     icon: "assets/images/icons/print.png"
+#     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
 # My Team Section
 team:
@@ -88,33 +86,49 @@ team:
 
 skills-title: Skills
 skills:
-  - { name: Web Design, color: "#fdb157", value: "90%" }
-  - { name: Logo Design, color: "#9473e6", value: "60%" }
-  - { name: After Effects, color: "#bdecf6", value: "80%" }
-  - { name: Web App, color: "#ffbcaa", value: "70%" }
+  - { name: Data Analysis, color: "#ffbcaa", value: "75%" }
+  - { name: Programming, color: "#ffbcaa", value: "85%" }
+  - { name: Writing, color: "#bdecf6", value: "80%" }
+  - { name: Comic making, color: "#9473e6", value: "30%" }
+
+  - { name: Game design, color: "#fdb157", value: "40%" }
+  - { name: Game programmer, color: "#fdb157", value: "70%" }
+  - { name: Narrative designer, color: "#fdb157", value: "80%" }
+  - { name: Social Media manager, color: "#fdb157", value: "35%" }
+  
+  - { name: Godot 3 & 4, color: "#df4090", value: "60%" }
+  - { name: UE4, color: "#df4090", value: "40%" }
+  - { name: Unity, color: "#df4090", value: "20%" }
+  - { name: GameMaker, color: "#df4090", value: "28%" }
 
 #-------------------------------
-# Exprerience Section
+# Experience Section
 
 experience-title: Experience
 experience:
   - {
-      name: Junior UX Designer,
+      name: Junior Programmer,
       icon: "icon-1.png",
-      date: "Jan 2007 - Feb 2009",
-      organization: "WEBEX",
+      date: "Nov 2016 - Mar 2017",
+      organization: "Hiberus Tecnologías de la Información",
     }
   - {
-      name: UX & UI Designer,
+      name: Backend Engineer,
       icon: "icon-2.png",
-      date: "Mar 2009 - Aug 2014",
-      organization: "AUGMEDIX",
+      date: "Dec 2018 - May 2019",
+      organization: "Datumize S.L.",
     }
   - {
-      name: Senior UI Designer,
+      name: Videogame maker (programmer, narrative designer),
       icon: "icon-3.png",
-      date: "Sep 2014 - Present",
-      organization: "THEMEFISHER",
+      date: "Jun 2018 - Present",
+      organization: "Kalpa Games & Otter Games",
+    }
+  - {
+      name: Data Analyst,
+      icon: "icon-3.png",
+      date: "Jul 2022 - Present",
+      organization: "Telefónica de España S.A.",
     }
 
 #-------------------------------
@@ -122,126 +136,113 @@ experience:
 
 education-title: Education
 education:
+
   - {
-      name: Marters in UX Design,
-      date: "2006",
-      organization: "Masassusets Institute of Technology",
+      name: Data Science master,
+      date: "2021-2023",
+      honours: "Graduated with honours (9.67/10)",
+      organization: "Universitat Oberta de Catalunya (UOC)",
     }
   - {
-      name: Honours in Fine Arts,
-      date: "2004",
-      organization: "Harvard University",
+      name: Videogame Programming master,
+      date: "2017-2018",
+      organization: "Universidad Complutense de Madrid (UCM)",
     }
   - {
-      name: Higher Secondary Certificat,
-      date: "2000",
-      organization: "Cardiff School",
+      name: Computer Science grade,
+      date: "2012-2016",
+      honours: "Average grade: 8.07/10",
+      organization: "Universidad de Zaragoza (UNIZAR)",
     }
   - {
-      name: Secondary School Certificate,
-      date: "1998",
-      organization: "Cardiff School",
+      name: Bachelor's degree,
+      date: "2010-2012",
+      honours: "Graduated with honours",
+      organization: "Sagrada Familia",
     }
 
 #-------------------------------
 # Services Section
 
-services-title: Services
-services:
-  - {
-      name: UI Design,
-      icon: ti-palette,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      active: ,# Add true to select section
-    }
-  - {
-      name: UX Design,
-      icon: ti-vector,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      active: true, # Add true to select section
-    }
-  - {
-      name: Interaction Design,
-      icon: ti-panel,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      active: ,# Add true to select section
-    }
+# services-title: Services
+# services:
+#   - {
+#       name: UI Design,
+#       icon: ti-palette,
+#       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+#       active: ,# Add true to select section
+#     }
+#   - {
+#       name: UX Design,
+#       icon: ti-vector,
+#       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+#       active: true, # Add true to select section
+#     }
+#   - {
+#       name: Interaction Design,
+#       icon: ti-panel,
+#       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+#       active: ,# Add true to select section
+#     }
 
 #-------------------------------
 # Portfolio (Section and Page)
 
 # Portfolio Home Section
 portfolio-home-items:
-  - image: "assets/images/portfolio/item-1.png"
-    url: "#"
+  - image: "assets/images/portfolio/simbiosis.jpg"
+    url: "_portfolio_items/Simbiosis"
+    internal: true
 
-  - image: "assets/images/portfolio/item-2.png"
-    url: "#"
+  - image: "assets/images/portfolio/imagination.jpg"
+    url: "_portfolio_items/Imaginacion"
+    internal: true
 
   - image: "assets/images/portfolio/item-3.png"
     url: "#"
+    internal: false
 
   - image: "assets/images/portfolio/item-4.png"
     url: "#"
+    internal: false
 
   - image: "assets/images/portfolio/item-5.png"
     url: "#"
+    internal: false
 
 # Portfolio Page
 portfolio-label:
-  - { title: "UI/UX Design", type: "design" }
-  - { title: "BRANDING", type: "branding" }
-  - { title: "ILLUSTRATION", type: "illustration" }
+  - { title: "PROGRAMMING", type: "programming" }
+  - { title: "DATA ANALYSIS", type: "analysis" }
+  - { title: "WRITING", type: "writing" }
+  - { title: "V-GAME MAKER", type: "videogame" }
+  - { title: "COMIC", type: "illustration" }
 
 portfolio-items:
-  - image: "assets/images/portfolio/item-1.png"
-    url: "#"
+  - image: "assets/images/portfolio/simbiosis.jpg"
+    url: "_portfolio_items/Simbiosis"
+    internal: true
     portfolio-type:
-      - type: "design"
-      - type: "illustration"
+      - type: "writing"
 
-  - image: "assets/images/portfolio/item-2.png"
+  - image: "assets/images/portfolio/imagination.jpg"
     url: "#"
+    internal: false
     portfolio-type:
-      - type: "branding"
+      - type: "writing"
 
-  - image: "assets/images/portfolio/item-3.png"
+  - image: "assets/images/portfolio/mask.jpg"
     url: "#"
+    internal: false
     portfolio-type:
-      - type: "illustration"
+      - type: "writing"
 
   - image: "assets/images/portfolio/item-6.png"
     url: "#"
+    internal: false
     portfolio-type:
       - type: "design"
       - type: "branding"
-
-  - image: "assets/images/portfolio/item-8.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
-
-  - image: "assets/images/portfolio/item-5.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-
-  - image: "assets/images/portfolio/item-1.png"
-    url: "#"
-    portfolio-type:
-      - type: "branding"
-
-  - image: "assets/images/portfolio/item-3.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      - type: "illustration"
-      - type: "branding"
-
-  - image: "assets/images/portfolio/item-7.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
 
 #-------------------------------
 # Testimonials Section
@@ -262,42 +263,9 @@ testimonial-items:
     designation: "CEO, Funder"
     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 
-#-------------------------------
-# Client Slider Section
-
-client-slider-items:
-  - logo: "assets/images/clients-logo/client-logo-1.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-2.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-3.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-4.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-5.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-1.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-2.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-3.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-4.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-5.png"
-    url: "#"
 
 #-------------------------------
 # Contact Section
 
-contact-title: Contact Info
-contact-email: steve.fruits@email.com
+contact-title: Contact information
+contact-email: patricialazarotello@gmail.com

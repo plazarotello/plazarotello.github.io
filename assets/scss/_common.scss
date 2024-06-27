@@ -130,6 +130,10 @@ a:hover {
   color: $text-color-light !important;
 }
 
+.text-extra-light {
+  color: $text-color-extra-light !important;
+}
+
 .mb-10 {
   margin-bottom: 10px !important;
 }
@@ -168,6 +172,14 @@ a:hover {
 
 .mb-100 {
   margin-bottom: 100px !important;
+}
+
+.ml-30 {
+  margin-left: 30px !important;
+}
+
+.mr-30 {
+  margin-right: 30px !important;
 }
 
 .zindex-1 {

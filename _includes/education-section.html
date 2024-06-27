@@ -15,7 +15,10 @@
           <div>
             <p class="text-dark mb-1">{{ education.date }}</p>
             <h4>{{ education.name }}</h4>
-            <p class="mb-0 text-light">{{ education.organization }}</p>
+            {% if education.honours %}
+            <p class="mb-0 text-light">{{ education.honours }}</p>
+            {% endif %}
+            <p class="mb-0 text-extra-light">{{ education.organization }}</p>
           </div>
         </div>
       </div>
