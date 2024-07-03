@@ -159,6 +159,8 @@ education:
 #-------------------------------
 # Services Section
 
+services-title: Services
+
 # services-title: Services
 # services:
 #   - {
