@@ -5,7 +5,7 @@
 title: plazarotello
 logo:
 author: Patricia Lázaro Tello
-description: plazaro's portfolio
+description: Patricia Lázaro Tello's portfolio
 email: patricialazarotello@gmail.com
 address: Zaragoza, Spain
 copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
@@ -38,14 +38,24 @@ hero:
   hero-title: Hi! I’m Patricia, <br> writer in the making, <br>comic enthusiast and <br>videogame developer
 
 social:
-  - { icon: "ti-instagram", link: "https://www.instagram.com/plazaro.dev/" }
+  - { icon: "ti-instagram", link: "https://www.instagram.com/bladeofechoes/" }
   - { icon: "ti-twitter", link: "https://x.com/PLazaroTello" }
+  - { icon: "ti-tiktok", link: "https://www.tiktok.com/@blade_of_echoes" }
+  - { icon: "ti-wattpad", link: "https://www.wattpad.com/user/BladeOfEchoes" }
+
+social-media:
+  instagram: "https://www.instagram.com/bladeofechoes/"
+  twitter: "https://x.com/PLazaroTello"
+  tiktok: "https://www.tiktok.com/@blade_of_echoes"
+  wattpad: "https://www.wattpad.com/user/BladeOfEchoes"
+
+
 
 #-------------------------------
 # About (Section and Page)
 
 # About Section
-blurb: My two passions since I was little have been videogames and art. Being able to program a videogame, and doing it with ease in the last few years - using Unreal Engine 4, Unity and Godot 3 and 4 - is a dream made true. Learning to draw and not suck at it; that would be another dream come true. I have a lot of stories in my mind, just waiting for a pen to touch a paper, a key to be stroked, a comic to be thought or a videogame to be designed.
+blurb: My two passions since I was a kid have been videogames and art, specially writing. Being able to program a videogame, and doing it with ease in the last few years - using Unreal Engine 4, Unity and Godot 3 and 4 - is a dream made true. Learning to draw and not suck at it; that would be another dream come true. I have a lot of stories in my mind, just waiting for a pen to touch a paper, a key to be stroked, a comic to be thought or a videogame to be designed.
 
 blurb-btn-link: "/about"
 blurb-btn-name: know more
@@ -114,7 +124,7 @@ experience:
       organization: "Datumize S.L.",
     }
   - {
-      name: Videogame maker (programmer, narrative designer),
+      name: Videogame maker (programmer & narrative designer),
       icon: "icon-3.png",
       date: "Jun 2018 - Present",
       organization: "Kalpa Games & Otter Games",
@@ -187,6 +197,18 @@ services-title: Services
 
 # Portfolio Home Section
 portfolio-home-items:
+  - image: "assets/images/portfolio/tfm.png"
+    url: "_portfolio_items/plazaro_tfm.pdf"
+    type: pdf
+
+  - image: "assets/images/portfolio/retinas.png"
+    url: "_portfolio_items/plazarotello_DL_PRA.pdf"
+    type: pdf
+
+  - image: "assets/images/portfolio/covid-europe.png"
+    url: "https://public.flourish.studio/story/1478018/"
+    type: url
+
   - image: "assets/images/portfolio/childhood.png"
     url: "https://kalpa-games.itch.io/childhood"
     type: url
@@ -194,16 +216,6 @@ portfolio-home-items:
   - image: "assets/images/portfolio/fulton.png"
     url: "https://foxgamedev.itch.io/detective-fulton-the-barlow-manor-mistery"
     type: url
-
-  # - image: "assets/images/portfolio/mask.jpg"
-  #   url: "_portfolio_items/Mascara"
-  #   type: post
-
-  
-
-  - image: "assets/images/portfolio/tfm.png"
-    url: "_portfolio_items/plazaro_tfm.pdf"
-    type: pdf
 
   - image: "assets/images/portfolio/killing-words.gif"
     url: "https://otter-games.itch.io/killing-words"
@@ -213,17 +225,9 @@ portfolio-home-items:
     url: "https://foxgamedev.itch.io/hacknsolve"
     type: url
 
-  - image: "assets/images/portfolio/retinas.png"
-    url: "_portfolio_items/plazarotello_DL_PRA.pdf"
-    type: pdf
-
   - image: "assets/images/portfolio/simbiosis.jpg"
     url: "_portfolio_items/Simbiosis"
     type: post
-  
-  - image: "assets/images/portfolio/covid-europe.png"
-    url: "https://public.flourish.studio/story/1478018/"
-    type: url
   
   - image: "assets/images/portfolio/vigilantes.png"
     url: "https://otter-games.itch.io/vxigilantes"
@@ -240,85 +244,9 @@ portfolio-label:
 
 portfolio-items:
 
-  - image: "assets/images/portfolio/childhood.png"
-    url: "https://kalpa-games.itch.io/childhood"
-    type: url
-    portfolio-type: 
-      - type: "videogame"
-      - type: "programming"
-
-  - image: "assets/images/portfolio/mask.jpg"
-    url: "_portfolio_items/Mascara"
-    type: post
-    portfolio-type:
-      - type: "writing"
-
-  - image: "assets/images/portfolio/fulton.png"
-    url: "https://foxgamedev.itch.io/detective-fulton-the-barlow-manor-mistery"
-    type: url
-    portfolio-type: 
-      - type: "videogame"
-      - type: "writing"
-
-  - image: "assets/images/portfolio/killing-words.gif"
-    url: "https://otter-games.itch.io/killing-words"
-    type: url
-    portfolio-type: 
-      - type: "videogame"
-      - type: "writing"
-      - type: "programming"
-
   - image: "assets/images/portfolio/tfm.png"
     url: "_portfolio_items/plazaro_tfm.pdf"
     type: pdf
-    portfolio-type: 
-      - type: "analysis"
-      - type: "programming"
-
-  - image: "assets/images/portfolio/simbiosis.jpg"
-    url: "_portfolio_items/Simbiosis"
-    type: post
-    portfolio-type:
-      - type: "writing"
-
-  - image: "assets/images/portfolio/imagination.jpg"
-    url: "_portfolio_items/Imaginacion"
-    type: url
-    portfolio-type:
-      - type: "writing"
-  
-  - image: "assets/images/portfolio/vigilantes.png"
-    url: "https://otter-games.itch.io/vxigilantes"
-    type: url
-    portfolio-type: 
-      - type: "videogame"
-      - type: "writing"
-      - type: "programming"
-
-  - image: "assets/images/portfolio/bermuda.png"
-    url: "https://foxgamedev.itch.io/bermuda-beach"
-    type: url
-    portfolio-type: 
-      - type: "videogame"
-      - type: "programming"
-  
-  - image: "assets/images/portfolio/jit.png"
-    url: "https://foxgamedev.itch.io/jump-in-time"
-    type: url
-    portfolio-type: 
-      - type: "videogame"
-      - type: "programming"
-
-  - image: "assets/images/portfolio/cleaning.png"
-    url: "https://github.com/alba620/data-cleaning-analysis"
-    type: url
-    portfolio-type: 
-      - type: "analysis"
-      - type: "programming"
-  
-  - image: "assets/images/portfolio/scraping.jpg"
-    url: "https://github.com/plazarotello/web-scraping"
-    type: url
     portfolio-type: 
       - type: "analysis"
       - type: "programming"
@@ -340,8 +268,15 @@ portfolio-items:
     type: pdf
     portfolio-type: 
       - type: "analysis"
+
+  - image: "assets/images/portfolio/cleaning.png"
+    url: "https://github.com/alba620/data-cleaning-analysis"
+    type: url
+    portfolio-type: 
+      - type: "analysis"
+      - type: "programming"
   
-  - image: "assets/images/portfolio/modelizacion.png"
+    - image: "assets/images/portfolio/modelizacion.png"
     url: "_portfolio_items/Lazaro_modelizacionPredictiva.pdf"
     type: pdf
     portfolio-type: 
@@ -383,6 +318,75 @@ portfolio-items:
     type: url
     portfolio-type: 
       - type: "analysis"
+
+  - image: "assets/images/portfolio/childhood.png"
+    url: "https://kalpa-games.itch.io/childhood"
+    type: url
+    portfolio-type: 
+      - type: "videogame"
+      - type: "programming"
+
+  - image: "assets/images/portfolio/fulton.png"
+    url: "https://foxgamedev.itch.io/detective-fulton-the-barlow-manor-mistery"
+    type: url
+    portfolio-type: 
+      - type: "videogame"
+      - type: "writing"
+
+  - image: "assets/images/portfolio/killing-words.gif"
+    url: "https://otter-games.itch.io/killing-words"
+    type: url
+    portfolio-type: 
+      - type: "videogame"
+      - type: "writing"
+      - type: "programming"
+  
+  - image: "assets/images/portfolio/mask.jpg"
+    url: "_portfolio_items/Mascara"
+    type: post
+    portfolio-type:
+      - type: "writing"
+
+  - image: "assets/images/portfolio/scraping.jpg"
+    url: "https://github.com/plazarotello/web-scraping"
+    type: url
+    portfolio-type: 
+      - type: "analysis"
+      - type: "programming"
+
+  - image: "assets/images/portfolio/simbiosis.jpg"
+    url: "_portfolio_items/Simbiosis"
+    type: post
+    portfolio-type:
+      - type: "writing"
+
+  - image: "assets/images/portfolio/imagination.jpg"
+    url: "_portfolio_items/Imaginacion"
+    type: url
+    portfolio-type:
+      - type: "writing"
+  
+  - image: "assets/images/portfolio/vigilantes.png"
+    url: "https://otter-games.itch.io/vxigilantes"
+    type: url
+    portfolio-type: 
+      - type: "videogame"
+      - type: "writing"
+      - type: "programming"
+
+  - image: "assets/images/portfolio/bermuda.png"
+    url: "https://foxgamedev.itch.io/bermuda-beach"
+    type: url
+    portfolio-type: 
+      - type: "videogame"
+      - type: "programming"
+  
+  - image: "assets/images/portfolio/jit.png"
+    url: "https://foxgamedev.itch.io/jump-in-time"
+    type: url
+    portfolio-type: 
+      - type: "videogame"
+      - type: "programming"
 
 #-------------------------------
 # Testimonials Section
