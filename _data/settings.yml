@@ -2,7 +2,7 @@
 #-------------------------------
 # General Site Settings
 
-title: plazarotello
+title: Patricia Lázaro Tello
 logo:
 author: Patricia Lázaro Tello
 description: Patricia Lázaro Tello's portfolio
@@ -340,12 +340,6 @@ portfolio-items:
       - type: "videogame"
       - type: "writing"
       - type: "programming"
-  
-  - image: "assets/images/portfolio/mask.jpg"
-    url: "_portfolio_items/Mascara"
-    type: post
-    portfolio-type:
-      - type: "writing"
 
   - image: "assets/images/portfolio/scraping.jpg"
     url: "https://github.com/plazarotello/web-scraping"
@@ -353,18 +347,6 @@ portfolio-items:
     portfolio-type: 
       - type: "analysis"
       - type: "programming"
-
-  - image: "assets/images/portfolio/simbiosis.jpg"
-    url: "_portfolio_items/Simbiosis"
-    type: post
-    portfolio-type:
-      - type: "writing"
-
-  - image: "assets/images/portfolio/imagination.jpg"
-    url: "_portfolio_items/Imaginacion"
-    type: url
-    portfolio-type:
-      - type: "writing"
   
   - image: "assets/images/portfolio/vigilantes.png"
     url: "https://otter-games.itch.io/vxigilantes"
