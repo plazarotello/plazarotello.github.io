@@ -224,10 +224,6 @@ portfolio-home-items:
   - image: "assets/images/portfolio/hack.gif"
     url: "https://foxgamedev.itch.io/hacknsolve"
     type: url
-
-  - image: "assets/images/portfolio/simbiosis.jpg"
-    url: "_portfolio_items/Simbiosis"
-    type: post
   
   - image: "assets/images/portfolio/vigilantes.png"
     url: "https://otter-games.itch.io/vxigilantes"
