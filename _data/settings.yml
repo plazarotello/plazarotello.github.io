@@ -276,7 +276,7 @@ portfolio-items:
       - type: "analysis"
       - type: "programming"
   
-    - image: "assets/images/portfolio/modelizacion.png"
+  - image: "assets/images/portfolio/modelizacion.png"
     url: "_portfolio_items/Lazaro_modelizacionPredictiva.pdf"
     type: pdf
     portfolio-type: 
