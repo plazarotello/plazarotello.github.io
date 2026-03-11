@@ -35,7 +35,7 @@ google-analytics: # UA-XXXXXX-X
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m Patricia, <br> writer in the making, <br>comic enthusiast and <br>videogame developer
+  hero-title: Hi! I’m Patricia, <br> data analyst, <br> writer and<br>videogame developer
 
 social:
   - { icon: "ti-instagram", link: "https://www.instagram.com/bladeofechoes/" }
@@ -55,7 +55,7 @@ social-media:
 # About (Section and Page)
 
 # About Section
-blurb: My two passions since I was a kid have been videogames and art, specially writing. Being able to program a videogame, and doing it with ease in the last few years - using Unreal Engine 4, Unity and Godot 3 and 4 - is a dream made true. Learning to draw and not suck at it; that would be another dream come true. I have a lot of stories in my mind, just waiting for a pen to touch a paper, a key to be stroked, a comic to be thought or a videogame to be designed.
+blurb: My two passions since I was a kid have been videogames and art, specially writing. Being able to program a videogame, and doing it with ease in the last few years - using Unreal Engine 4, Unity and Godot 3 and 4 - is a dream made true. Learning to write professionally is another dream of mine. I have a lot of stories in my mind, just waiting for a pen to touch a paper, a key to be stroked or a videogame to be created.
 
 blurb-btn-link: "/about"
 blurb-btn-name: know more
@@ -236,7 +236,7 @@ portfolio-label:
   - { title: "DATA ANALYSIS", type: "analysis" }
   - { title: "WRITING", type: "writing" }
   - { title: "V-GAME MAKER", type: "videogame" }
-  # - { title: "COMIC", type: "illustration" }
+
 
 portfolio-items:
 

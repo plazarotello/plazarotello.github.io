@@ -12,6 +12,4 @@ Then, when videogames came into my life, I got hooked inmediately. I instantly b
 
 Life - <i>adult</i> life - has gotten in the way lately, and my career as videogame programmer - or producer, or social media manager, or designer, or mediocre artist - has stopped to a halt. I plan to continue walking this path, for I have stories to tell and ideas to materialize.
 
-I am also a comic enthusiast - more like manga and anime enthusiast - and lately I have been thinking of uniting writing (which I am good at) with art (which I am NOT good at... <i>yet</i>). The natural path in that regard would be to study a <b>comic program</b>, in which I am inmersed right now.
-
 Lastly, I have studied a <b>Data Science master</b>, and this has landed me a Data Analyst position in Telefónica de España, S.A. I am very grateful for this opportunity to probe myself in my most analytic side (you got the pun?) and hopefully this job will be my main activity for many years to come.
